@@ -17,3 +17,6 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 
 📊 MLflow Integration: Experiments are tracked using MLFlow, in order to track model performance and hyperparameter trials.
 
+<br><br>
+
+## ![Banner](https://github.com/bmcastrow/AmyloidbetaA4-pIC50-prediction/blob/main/Design%20sem%20nome.jpg)
