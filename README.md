@@ -13,7 +13,7 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 
 🔬 ML Pipeline: Machine learning approach using molecular fingerprints, with models tuned using Optuna for hyperparameter optimization.
 
-🤖 DL Pipeline: Deep learning method Using Hugging Face's ChemBERTa on SMILES combined with LoRA (Low-Rank Adaptation) for cost-effective fine-tuning.
+🤖 DL Pipeline: Deep learning method Using Hugging Face's ChemBERTa on SMILES combined with LoRA (Low-Rank Adaptation) for cost-effective fine-tuning ⌛...
 
 📊 MLflow Integration: Experiments are tracked using MLFlow, in order to track model performance and hyperparameter trials.
 
