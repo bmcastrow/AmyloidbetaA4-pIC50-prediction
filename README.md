@@ -9,7 +9,7 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 
 ## 📁 Repository Overview
 
-📜 Data: ChEMBL database exploration containing bioactivity data, chemical descriptors calculated using RDKit (including Lipinski descriptors), PaDEL-Descriptor to generate molecular fingerprints, preprocessing steps and EDA.
+📜 Data: Exploration of the ChEMBL database, including the calculation of chemical descriptors using RDKit (such as Lipinski descriptors), the generation of molecular fingerprints with PaDEL-Descriptor, as well as preprocessing steps and exploratory data analysis (EDA)
 
 🔬 ML Pipeline: Machine learning approach using molecular fingerprints, with models tuned using Optuna for hyperparameter optimization.
 
