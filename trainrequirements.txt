@@ -1,0 +1,98 @@
+alembic==1.14.0
+appnope @ file:///Users/ktietz/demo/mc3/conda-bld/appnope_1629146036738/work
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+blinker==1.8.2
+cachetools==5.5.0
+certifi==2024.12.14
+charset-normalizer==3.4.1
+click==8.1.8
+cloudpickle==3.1.0
+colorlog==6.9.0
+comm @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3doui0bmzb/croot/comm_1709322861485/work
+contourpy==1.1.1
+cycler==0.12.1
+databricks-sdk==0.40.0
+debugpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_563_nwtkoc/croot/debugpy_1690905063850/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+Deprecated==1.2.15
+docker==7.1.0
+entrypoints @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-jb01gaox/entrypoints_1650293758411/work
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+Flask==3.0.3
+fonttools==4.55.3
+gitdb==4.0.12
+GitPython==3.1.44
+google-auth==2.37.0
+graphene==3.4.3
+graphql-core==3.2.5
+graphql-relay==3.2.0
+gunicorn==23.0.0
+idna==3.10
+importlib_metadata==8.5.0
+importlib_resources==6.4.5
+ipykernel @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ddflobe9t3/croot/ipykernel_1728665605034/work
+ipython @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_84r7osg3nm/croot/ipython_1691532095330/work
+itsdangerous==2.2.0
+jedi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_194648shy3/croot/jedi_1721058355221/work
+Jinja2==3.1.5
+joblib==1.4.2
+jupyter_client @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_aen57n2aow/croot/jupyter_client_1676329104065/work
+jupyter_core @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_73nomeum4p/croot/jupyter_core_1718818302815/work
+kiwisolver==1.4.7
+Mako==1.3.8
+Markdown==3.7
+MarkupSafe==2.1.5
+matplotlib==3.7.5
+matplotlib-inline @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f6fdc0hldi/croots/recipe/matplotlib-inline_1662014472341/work
+mlflow==2.17.2
+mlflow-skinny==2.17.2
+nest-asyncio @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_310vb5e2a0/croot/nest-asyncio_1708532678212/work
+numpy==1.24.4
+opentelemetry-api==1.29.0
+opentelemetry-sdk==1.29.0
+opentelemetry-semantic-conventions==0.50b0
+optuna==4.1.0
+packaging @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_81ri4yfpjw/croot/packaging_1720101866878/work
+pandas==2.0.3
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+pillow==10.4.0
+platformdirs @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a8u4fy8k9o/croot/platformdirs_1692205661656/work
+prompt-toolkit @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_c63v4kqjzr/croot/prompt-toolkit_1704404354115/work
+protobuf==5.29.2
+psutil @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_1310b568-21f4-4cb0-b0e3-2f3d31e39728k9coaga5/croots/recipe/psutil_1656431280844/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pyarrow==17.0.0
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+Pygments @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_29bs9f_dh9/croot/pygments_1684279974747/work
+pyparsing==3.1.4
+python-dateutil @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_66ud1l42_h/croot/python-dateutil_1716495741162/work
+pytz==2024.2
+PyYAML==6.0.2
+pyzmq @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_43pxpbos3z/croot/pyzmq_1705605108344/work
+requests==2.32.3
+rsa==4.9
+scikit-learn==1.3.2
+scipy==1.10.1
+seaborn==0.13.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.2
+SQLAlchemy==2.0.36
+sqlparse==0.5.3
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+threadpoolctl==3.5.0
+tornado @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a4w03z48br/croot/tornado_1718740114858/work
+tqdm==4.67.1
+traitlets @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_500m2_1wyk/croot/traitlets_1718227071952/work
+typing_extensions @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_93dg13ilv4/croot/typing_extensions_1715268840722/work
+tzdata==2024.2
+urllib3==2.2.3
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+Werkzeug==3.0.6
+wrapt==1.17.0
+xgboost==2.1.3
+zipp==3.20.2
