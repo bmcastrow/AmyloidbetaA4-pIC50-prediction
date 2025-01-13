@@ -71,7 +71,7 @@ pip install -r trainingrequirements.txt
 ```
 
 #### MlFlow
-The step "***Training and Evaluation requirements***", was made in order for MLFlow to work correctly. For some reason (reported in several places online) ```port 5000``` sometimes doesn't work. With that in mind it is advised to change to another (i.e. ```port 8080```).
+The step "***Training and Evaluation requirements***", was made in order for MLFlow to work correctly. Also, for some reason (reported in several places online) ```port 5000``` sometimes doesn't work. With that in mind it is advised to change to another (i.e. ```port 8080```).
 
 ## Optuna insights using MLFlow
 Optuna and MLflow offer a powerful combination for hyperparameter optimization and experiment tracking. Optuna's visualization capabilities enable deep insights into the influence of hyperparameters on model performance, while MLflow organizes experiments, making it easier to compare different runs. Below are examples of visualizations generated during the optimization process:
