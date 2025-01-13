@@ -16,7 +16,8 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 - [Development](#development)
   - [Prerequisites](#prerequisites)
   - [Requirements](#requirements)
-- [Optuna insights](#optuna-insights)
+    - [MLFlow](#mlflow)
+- [Optuna insights using MLFlow](#optuna-insights-using-mlflow)
 - [Contribution Guidelines](#contribution-guidelines)
 
 ## Project overview
@@ -42,8 +43,10 @@ bvkajhbvkajdbvkjabd
 ### Prerequisites
 
 - Software(macOS, Windows, Linux...)
+  - If using macOS, must have homebrew installed
 - Conda or miniconda (with your environment)
 - Python == 3.8.19
+
 
 ### Requirements
 
@@ -61,11 +64,15 @@ pip install -r datarequirements.txt
 For the model training phase, create a new environment in the same script and install the dependencies listed in trainingrequirements.txt. Using a separate environment ensures no conflicts between libraries used in data preparation and those required for model training.
 
 Run the following command in the terminal after activating your new environment:
-```
+```bash
 pip install -r trainingrequirements.txt
 ```
 
-## Optuna insights
+#### MlFlow
+The step "***Training and Evaluation requirements***", was made in order for MLFlow to work correctly. For some reason (reported in several places online) ```port 5000``` sometimes doesn't work. With that in mind it is advised to change to another (i.e. ```port 8080```).
+
+## Optuna insights using MLFlow
+
 
 
 ## Contribution Guidelines
