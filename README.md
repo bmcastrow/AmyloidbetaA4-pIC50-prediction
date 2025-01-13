@@ -22,7 +22,7 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 - [Optuna insights using MLFlow](#optuna-insights-using-mlflow)
   - [Runs](#runs)
   - [Experiment type](#experiment-type)
-  - [i.e LearningRate influence in HistGradientBoostingRegressor](#i.e-learningrate-influence-in-histgradientboostingregressor)
+  - [LearningRate influence in HistGradientBoostingRegressor](#learningrate-influence-in-histgradientboostingregressor)
   - [Hyperparameter influence in RandomForestRegressor](#hyperparameter-influence-in-randomrorestregressor)
 - [Contribution Guidelines](#contribution-guidelines)
 
@@ -93,21 +93,44 @@ Optuna and MLflow offer a powerful combination for hyperparameter optimization a
 
 Steps to contribute to the master branch
 
+- [Git](https://git-scm.com/) installed on your local machine.
+- (Optional) Direct collaborator access to this repository, otherwise you’ll contribute via your own fork.
+
+1. **Check existing issues**: See if the feature request or bug is already reported.  
+2. **Open a new issue** if one does not exist:
+   - Provide a clear title (e.g., “Fix data parsing in main script”).
+   - Describe the problem, enhancement, or feature request in detail.
+   - Assign yourself or someone else if appropriate.
+   - Add relevant labels (e.g., `bug`, `enhancement`, `documentation`).
+  
+---
+
 - Clone the repository:
    ```bash
    git clone https://github.com/bmcastrow/AmyloidbetaA4-pIC50-prediction.git
 
-Create an issue for each new bug/feature/update that you want to contribute. In the issue description, be as detailed as possible with what the expected inputs and outputs should be, and if possible what the process to solve the issue will be.
-Assign someone, as well as apply the respective tags (documentation, enhacement, etc.)
-On your local machine
+- Create a new descriptive branch with issue number (i.e: i18_feature_improvement):
+  ```bash
+  git checkout -b i18_feature_improvement
 
-If you haven't already, accept the invite to be a member of wri-dssg! Then clone the repository using git clone https://github.com/wri-dssg/policy-data-collector.git
-If you're going to work on issue #69 which is about extracting text, then create a branch for that issue:
-git checkout -b i69_text_extraction
-Once work is done, commit and push:
-git push --set-upstream origin i69_text_extraction
-Back on Github
+- Commit:
+  ```bash
+  git add .
+  git commit -m "Fix issue 18: Explore feature improvement X"
+  git push --set-upstream origin i18_feature_improvement
 
-Once issue is solved, make a Pull Request (PR) on Github to merge to the master branch, and link the issue in the PR description and assign people to review. If possible, do one PR once a week to avoid merge conflicts.
-If the PR gets approved and merged, you can close the issue and delete the branch!
+- Create a PR:
+  - On GitHub, navigate to your repository.
+  - Locate your branch and click Compare & pull request.
+  - In the PR description:
+    - Link the related issue (e.g., “Closes #18).
+    - Provide an overview of the changes and why they’re necessary.
+    - Assign reviewers if needed and label the PR (e.g., bugfix, enhancement).
+    - Tip: Submit your PR once changes are stable to reduce the risk of merge conflicts.
 
+- Review and Merge:
+  Await feedback from reviewers.
+  If changes are requested, make them in your branch locally, then push again.
+  Once approved, merge into master (or the default branch).
+
+Thank you for following these guidelines!
