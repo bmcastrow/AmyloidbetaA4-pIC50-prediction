@@ -1,6 +1,6 @@
 # 🧠 Amyloid-beta A4 potency Prediction
 
-<img src="https://github.com/bmcastrow/AmyloidbetaA4-pIC50-prediction/blob/main/Design%20sem%20nome.jpg" alt="Banner" style="width:1000px; height:250px;">
+<img src="https://github.com/bmcastrow/AmyloidbetaA4-pIC50-prediction/blob/main/BrainCell.jpg" alt="Banner" style="width:1000px; height:250px;">
 
 ## Context
 
