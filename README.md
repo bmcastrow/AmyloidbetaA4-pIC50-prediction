@@ -1,5 +1,7 @@
 # 🧠 Amyloid-beta A4 potency Prediction
 
+<img src="https://github.com/bmcastrow/AmyloidbetaA4-pIC50-prediction/blob/main/Design%20sem%20nome.jpg" alt="Banner" style="width:1000px; height:250px;">
+
 ## Context
 
 Alzheimer's disease is one of the most widespread neurodegenerative disorders, affecting millions worldwide. 
@@ -18,6 +20,10 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
   - [Requirements](#requirements)
     - [MLFlow](#mlflow)
 - [Optuna insights using MLFlow](#optuna-insights-using-mlflow)
+  - [Runs](#runs)
+  - [Experiment type](#experiment-type)
+  - [i.e LearningRate influence in HistGradientBoostingRegressor](#i.e-learningrate-influence-in-histgradientboostingregressor)
+  - [Hyperparameter influence in RandomForestRegressor](#hyperparameter-influence-in-randomrorestregressor)
 - [Contribution Guidelines](#contribution-guidelines)
 
 ## Project overview
@@ -30,13 +36,9 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 
 🔄 MLflow Integration: Experiments are tracked using MLFlow, in order to track model performance and hyperparameter trials that are optimzed using Bayesian optimization (Optuna for the ML Pipeline).
 
-<br><br>
-
 ### Structure
 
 bvkajhbvkajdbvkjabd
-
-<img src="https://github.com/bmcastrow/AmyloidbetaA4-pIC50-prediction/blob/main/Design%20sem%20nome.jpg" alt="Banner" style="width:1000px; height:250px;">
 
 ## Development
 
@@ -72,7 +74,19 @@ pip install -r trainingrequirements.txt
 The step "***Training and Evaluation requirements***", was made in order for MLFlow to work correctly. For some reason (reported in several places online) ```port 5000``` sometimes doesn't work. With that in mind it is advised to change to another (i.e. ```port 8080```).
 
 ## Optuna insights using MLFlow
+Optuna and MLflow offer a powerful combination for hyperparameter optimization and experiment tracking. Optuna's visualization capabilities enable deep insights into the influence of hyperparameters on model performance, while MLflow organizes experiments, making it easier to compare different runs. Below are examples of visualizations generated during the optimization process:
 
+### Runs
+<img src="Optuna%20ft.%20MLFlow/mlflow_runorg.png" alt="MLflow Run Organization" style="height:200px;">
+
+### Experiment type
+![Experiment Type Overview](Optuna%20ft.%20MLFlow/experiment_type.png)
+
+### i.e (LearningRate influence in HistGradientBoostingRegressor)
+![Hyperparameter Influence on R²](Optuna%20ft.%20MLFlow/hyperparameter_influence_r2.png)
+
+### Hyperparameter influence in RandomForestRegressor
+![Random Forest Hyperparameter Influence](Optuna%20ft.%20MLFlow/RandomForest_hyperparameter_influence.png)
 
 
 ## Contribution Guidelines
@@ -96,6 +110,4 @@ Back on Github
 
 Once issue is solved, make a Pull Request (PR) on Github to merge to the master branch, and link the issue in the PR description and assign people to review. If possible, do one PR once a week to avoid merge conflicts.
 If the PR gets approved and merged, you can close the issue and delete the branch!
-
-<img src="https://github.com/bmcastrow/AmyloidbetaA4-pIC50-prediction/blob/main/Design%20sem%20nome.jpg" alt="Banner" style="width:1000px; height:250px;">
 
