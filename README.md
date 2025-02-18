@@ -77,10 +77,10 @@ Optuna and MLflow offer a powerful combination for hyperparameter optimization a
 ### Experiment type
 ![Experiment Type Overview](Optuna%20ft.%20MLFlow/experiment_type.png)
 
-### i.e LearningRate influence in HistGradientBoostingRegressor
+### i.e. LearningRate influence in HistGradientBoostingRegressor
 ![Hyperparameter Influence on R²](Optuna%20ft.%20MLFlow/hyperparameter_influence_r2.png)
 
-### i.e Hyperparameter influence in RandomForestRegressor
+### i.e. Hyperparameter influence in RandomForestRegressor
 ![Random Forest Hyperparameter Influence](Optuna%20ft.%20MLFlow/RandomForest_hyperparameter_influence.png)
 
 
