@@ -14,7 +14,6 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 - [Context](#context)
 - [Table of contents](#table-of-contents)
 - [Project overview](#project-overview)
-  - [Strucure](#structure)
 - [Development](#development)
   - [Prerequisites](#prerequisites)
   - [Requirements](#requirements)
@@ -22,8 +21,8 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 - [Optuna insights using MLFlow](#optuna-insights-using-mlflow)
   - [Runs](#runs)
   - [Experiment type](#experiment-type)
-  - [LearningRate influence in HistGradientBoostingRegressor](#learningrate-influence-in-histgradientboostingregressor)
-  - [Hyperparameter influence in RandomForestRegressor](#hyperparameter-influence-in-randomrorestregressor)
+  - [LearningRate influence in HistGradientBoostingRegressor](#i.e-learningrate-influence-in-histgradientboostingregressor)
+  - [Hyperparameter influence in RandomForestRegressor](#i.e-hyperparameter-influence-in-randomrorestregressor)
 - [Contribution Guidelines](#contribution-guidelines)
 
 ## Project overview
@@ -35,10 +34,6 @@ A key hallmark of Alzheimer's pathology is the accumulation of amyloid-beta plaq
 🤖 DL Pipeline: Deep learning method Using Hugging Face's ChemBERTa on SMILES combined with LoRA (Low-Rank Adaptation) for cost-effective fine-tuning with an adaptation for regression purposes (Loading...⌛⚠️) 
 
 🔄 MLflow Integration: Experiments are tracked using MLFlow, in order to track model performance and hyperparameter trials that are optimzed using Bayesian optimization (Optuna for the ML Pipeline).
-
-### Structure
-
-bvkajhbvkajdbvkjabd
 
 ## Development
 
@@ -82,10 +77,10 @@ Optuna and MLflow offer a powerful combination for hyperparameter optimization a
 ### Experiment type
 ![Experiment Type Overview](Optuna%20ft.%20MLFlow/experiment_type.png)
 
-### LearningRate influence in HistGradientBoostingRegressor
+### i.e LearningRate influence in HistGradientBoostingRegressor
 ![Hyperparameter Influence on R²](Optuna%20ft.%20MLFlow/hyperparameter_influence_r2.png)
 
-### Hyperparameter influence in RandomForestRegressor
+### i.e Hyperparameter influence in RandomForestRegressor
 ![Random Forest Hyperparameter Influence](Optuna%20ft.%20MLFlow/RandomForest_hyperparameter_influence.png)
 
 
